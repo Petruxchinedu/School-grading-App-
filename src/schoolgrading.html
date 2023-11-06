@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="schoolgrading.css"> -->
+</head>
+<body class="bg-no-repeat w-full h-full lg:bg-cover" style="background-image: url(../img1.jpg);">
+  <div class="mt-28">
+    <h1 class="text-center font-bold text-3xl mt-28">LARVA GRADING SYSTEM APP</h1>
+  </div>
+  <main class="flex items-center justify-center mt-10px">
+    <div>
+      <img src="../welcome.png"/>
+    </div>
+    <section class="bg-cyan-300 pt-5 px-[30px] h-[450px]" id="kk">
+      <p class="text-xl mt-[10px] text-center">NAME:</p>
+      <input type="text" id="inp" placeholder="Your Name" class="text-[20px] text-center"/>
+      <p class="text-[40px] mt-[20px]" id="res">Result</p>
+      <p class="text-[25px] mt-[20px]" id="per">Percentage - </p>
+      <p class="text-[25px] mt-[20px]" id="gra">Grade - </p>
+      <p class="text-[25px] mt-[20px]" id="tot">Total - </p>
+      <p class="mt-[52px] text-black bg-white text-center" id="para"></p>
+    </section>
+    <section class="bg-gray-500 pt-[10px] h-[450px] pb-[40px] px-[30px]" id="dd">
+      <input class="w-[200px] lg:w-60 lg:text-xl h-[40px] mt-[20px] border-none py-0 px-[10px]"id="fir" placeholder="HTML" type="number"/><br>
+      <input class="w-[200px] lg:w-60 lg:text-xl h-[40px] mt-[20px] border-none py-0 px-[10px]" id="sec" placeholder="Css" type="number"/><br>
+      <input class="w-[200px] lg:w-60 lg:text-xl h-[40px] mt-[20px] border-none  py-0 px-[10px]" id="thi" placeholder="Javascript" type="number"/><br>
+      <input class="w-[200px] lg:w-60 lg:text-xl h-[40px] mt-[20px] border-none py-0 px-[10px]" id="fou" placeholder="Git/Github" type="number"/><br>
+      <input class="w-[200px] lg:w-60 lg:text-xl h-[40px] mt-[20px] border-none  py-0 px-[10px]" id="fif" placeholder="React" type="number"/><br>
+      <button class="w-[150px] lg:w-60 lg:text-xl h-[40px] border-none py-0 px-[10px] mt-[35px] text-[20px] bg-cyan-300 rounded-md" id="btn">Show Result</button>
+    </section>
+  </main>
+
+  <script src="schoolgrading.js"></script>
+</body>
+</html>
